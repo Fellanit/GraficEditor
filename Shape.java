@@ -1,5 +1,5 @@
 package graficEditor;
 
-public interface Shape {
-    void pushName();
+abstract class Shape {
+    abstract  String getName();
 }

@@ -1,9 +1,9 @@
 package graficEditor;
 
-public class Quad implements Shape{
+public class Quad extends Shape{
 
     @Override
-    public void pushName() {
-        System.out.println("Im a Quad");
+    public String getName() {
+        return "Im a Quad";
     }
 }

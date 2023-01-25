@@ -1,6 +1,6 @@
 package graficEditor;
 
-public class ShapesNamesTest {
+public class ShapeNameTest {
     public static void main(String[] args) {
 NamePooler namePooler = new NamePooler();
 

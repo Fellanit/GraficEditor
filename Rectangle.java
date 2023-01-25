@@ -1,8 +1,8 @@
 package graficEditor;
 
-public class Rectangle implements Shape{
+public class Rectangle extends Shape{
     @Override
-    public void pushName() {
-        System.out.println("Im a Rectangle");
+    public String getName() {
+        return "Im a Rectangle";
     }
 }

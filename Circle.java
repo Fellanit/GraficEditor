@@ -1,10 +1,10 @@
 package graficEditor;
 
-public class Circle implements Shape{
+public class Circle extends Shape{
 
 
     @Override
-    public void pushName() {
-        System.out.println("im a Circle");
+    public String getName() {
+        return  "im a Circle" ;
     }
 }

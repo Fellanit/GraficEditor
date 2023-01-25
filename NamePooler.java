@@ -2,6 +2,6 @@ package graficEditor;
 
 public class NamePooler {
     public void displayName(Shape shape) {
-shape.pushName();
+        System.out.println("shape.getName() = " + shape.getName());
     }
 }

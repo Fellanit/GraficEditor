@@ -1,8 +1,8 @@
 package graficEditor;
 
-public class Triangle implements Shape{
+public class Triangle extends Shape{
     @Override
-    public void pushName() {
-        System.out.println("Im a Triangle");
+    public String getName() {
+        return "Im a Triangle";
     }
 }
